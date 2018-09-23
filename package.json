@@ -1,0 +1,25 @@
+{
+  "name": "beer-me-demo-vanilla",
+  "version": "1.0.0",
+  "description": "Vanilla JS version",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server -d --watch",
+    "build": "webpack -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.7.0",
+    "cross-env": "5.2.0",
+    "css-loader": "1.0.0",
+    "file-loader": "2.0.0",
+    "node-sass": "4.9.3",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.0",
+    "webpack": "3.12.0",
+    "webpack-dev-server": "2.11.3"
+  }
+}
